@@ -12,7 +12,11 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "check-format": "prettier --check .",
+    "check-lint": "yarn lint",
+    "check-types": "tsc --pretty --noEmit",
+    "prepare": "husky install"
   },
   "dependencies": {
     "next": "12.3.1",
