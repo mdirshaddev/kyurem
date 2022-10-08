@@ -16,6 +16,7 @@
 		"check-format": "prettier --check .",
 		"check-lint": "yarn lint",
 		"check-types": "tsc --pretty --noEmit",
+		"check-commit": "commitlint --edit",
 		"prepare": "husky install"
 	},
 	"dependencies": {
