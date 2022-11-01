@@ -1,8 +1,8 @@
 # Kyurem
 
-`Google Drive` clone build with `Next.js` and `Firebase`
+`Google Drive` clone build with `Next.js` and `AWS Cloud Services`
 
-# About Next.js and Vercel`
+# About Next.js and Vercel
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 

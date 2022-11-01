@@ -12,7 +12,7 @@
 	"files.autoSave": "off",
 	"files.autoSaveDelay": 1000,
 	// Workbench
-	"workbench.colorTheme": "GitHub Light Colorblind (Beta)",
+	"workbench.colorTheme": "GitHub Dark",
 	"workbench.iconTheme": "material-icon-theme",
 	"workbench.editor.showIcons": true,
 	"workbench.editor.wrapTabs": true,
@@ -20,18 +20,60 @@
 	"editor.defaultFormatter": "esbenp.prettier-vscode",
 	"editor.autoIndent": "advanced",
 	"editor.bracketPairColorization.enabled": true,
-	"editor.fontFamily": "'Hack Nerd Font Mono', 'Fira Code', Consolas, 'Courier New', monospace",
+	"editor.fontFamily": "'Fira Code Nerd Font Mono', 'Fira Code', Consolas, 'Courier New', monospace",
 	"editor.bracketPairColorization.independentColorPoolPerBracketType": false,
 	"editor.formatOnSave": true,
 	"editor.formatOnSaveMode": "modifications",
 	"editor.formatOnPaste": true,
 	"editor.tabSize": 2,
 	"editor.wordWrap": "wordWrapColumn",
+	"[typescript]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true
+	},
+	"[typescriptreact]": {
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true
+	},
+	"[css]": {
+		"editor.suggest.insertMode": "replace",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true
+	},
+	"[jsonc]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true
+	},
+	"[json]": {
+		"editor.quickSuggestions": {
+			"strings": true
+		},
+		"editor.suggest.insertMode": "replace",
+		"editor.defaultFormatter": "esbenp.prettier-vscode",
+		"editor.formatOnPaste": true,
+		"editor.formatOnSave": true,
+		"editor.formatOnType": true
+	},
 	// Termminal
 	"terminal.integrated.enableBell": true,
 	"terminal.integrated.defaultProfile.windows": "Git Bash",
 	"terminal.integrated.fontFamily": "'MesloLGS NF', Consolas, 'Courier New', monospace",
 	// CSS
 	"css.format.enable": true,
-	"css.validate": false
+	"css.validate": false,
+	// TypeScript
+	"typescript.tsdk": ".\\node_modules\\typescript\\lib",
+	"typescript.enablePromptUseWorkspaceTsdk": false
 }
